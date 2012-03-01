@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/acer/picasso/proprietary/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/acer/picasso/proprietary/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/acer/picasso/proprietary/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-    vendor/acer/picasso/proprietary/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/acer/picasso/proprietary/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/acer/picasso/proprietary/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/acer/picasso/proprietary/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
@@ -36,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/acer/picasso/proprietary/libnvmm_asfparser.so:system/lib/libnvmm_asfparser.so \
     vendor/acer/picasso/proprietary/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/acer/picasso/proprietary/libnvmm_aviparser.so:system/lib/libnvmm_aviparser.so \
-    vendor/acer/picasso/proprietary/libnvmm_camera.so:system/lib/libnvmm_camera.so \
     vendor/acer/picasso/proprietary/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/acer/picasso/proprietary/libnvmm_image.so:system/lib/libnvmm_image.so \
     vendor/acer/picasso/proprietary/libnvmm_manager.so:system/lib/libnvmm_manager.so \
@@ -70,13 +68,27 @@ PRODUCT_COPY_FILES += \
     vendor/acer/picasso/proprietary/Acer-AK00LB.kcm:system/usr/keylayout/Acer-AK00LB.kcm \
     vendor/acer/picasso/proprietary/acer-dock.kl:system/usr/keylayout/acer-dock.kl \
     vendor/acer/picasso/proprietary/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-
-
-
-
-
-
-
-
-
-
+    vendor/acer/picasso/proprietary/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
+    vendor/acer/picasso/proprietary/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
+    vendor/acer/picasso/proprietary/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
+    vendor/acer/picasso/proprietary/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
+    vendor/acer/picasso/proprietary/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
+    vendor/acer/picasso/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
+    vendor/acer/picasso/proprietary/nvddk_audiofx_core.axf:system/etc/firmware/nvddk_audiofx_core.axf \
+    vendor/acer/picasso/proprietary/nvddk_audiofx_transport.axf:system/etc/firmware/nvddk_audiofx_transport.axf \
+    vendor/acer/picasso/proprietary/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
+    vendor/acer/picasso/proprietary/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
+    vendor/acer/picasso/proprietary/nvmm_audiomixer.axf:system/etc/firmware/nvmm_audiomixer.axf \
+    vendor/acer/picasso/proprietary/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
+    vendor/acer/picasso/proprietary/nvmm_jpegdec.axf:system/etc/firmware/nvmm_jpegdec.axf \
+    vendor/acer/picasso/proprietary/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf \
+    vendor/acer/picasso/proprietary/nvmm_manager.axf:system/etc/firmware/nvmm_manager.axf \
+    vendor/acer/picasso/proprietary/nvmm_mp2dec.axf:system/etc/firmware/nvmm_mp2dec.axf \
+    vendor/acer/picasso/proprietary/nvmm_mp3dec.axf:system/etc/firmware/nvmm_mp3dec.axf \
+    vendor/acer/picasso/proprietary/nvmm_mpeg4dec.axf:system/etc/firmware/nvmm_mpeg4dec.axf \
+    vendor/acer/picasso/proprietary/nvmm_reference.axf:system/etc/firmware/nvmm_reference.axf \
+    vendor/acer/picasso/proprietary/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
+    vendor/acer/picasso/proprietary/nvmm_sorensondec.axf:system/etc/firmware/nvmm_sorensondec.axf \
+    vendor/acer/picasso/proprietary/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \
+    vendor/acer/picasso/proprietary/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
+    vendor/acer/picasso/proprietary/gps.conf:system/etc/gps.conf \
