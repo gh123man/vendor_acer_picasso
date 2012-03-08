@@ -17,15 +17,8 @@
 
 # All the blobs necessary for picasso
 PRODUCT_COPY_FILES += \
-    vendor/acer/picasso/proprietary/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/acer/picasso/proprietary/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/acer/picasso/proprietary/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/acer/picasso/proprietary/gps.tegra.so:system/lib/hw/gps.tegra.so \
-    vendor/acer/picasso/proprietary/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
-    vendor/acer/picasso/proprietary/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/acer/picasso/proprietary/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/acer/picasso/proprietary/libnvddk_2d.so:system/lib/libnvddk_2d.so \
-    vendor/acer/picasso/proprietary/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/acer/picasso/proprietary/libnvddk_aes_user.so:system/lib/libnvddk_aes_user.so \
     vendor/acer/picasso/proprietary/libnvddk_audiofx.so:system/lib/libnvddk_audiofx.so \
     vendor/acer/picasso/proprietary/libnvddk_vmr.so:system/lib/libnvddk_vmr.so \
@@ -48,22 +41,16 @@ PRODUCT_COPY_FILES += \
     vendor/acer/picasso/proprietary/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
     vendor/acer/picasso/proprietary/libnvmm_videorenderer.so:system/lib/libnvmm_videorenderer.so \
     vendor/acer/picasso/proprietary/libnvmm_video.so:system/lib/libnvmm_video.so \
-    vendor/acer/picasso/proprietary/libnvmm_vp6_video.so:system/lib/libnvmm_vp6_video.so \
     vendor/acer/picasso/proprietary/libnvmm_writer.so:system/lib/libnvmm_writer.so \
     vendor/acer/picasso/proprietary/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
     vendor/acer/picasso/proprietary/libnvodm_imager.so:system/lib/libnvodm_imager.so \
     vendor/acer/picasso/proprietary/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/acer/picasso/proprietary/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/acer/picasso/proprietary/libnvomx.so:system/lib/libnvomx.so \
-    vendor/acer/picasso/proprietary/libnvos.so:system/lib/libnvos.so \
     vendor/acer/picasso/proprietary/libnvrm_channel.so:system/lib/libnvrm_channel.so \
-    vendor/acer/picasso/proprietary/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
-    vendor/acer/picasso/proprietary/libnvrm.so:system/lib/libnvrm.so \
     vendor/acer/picasso/proprietary/libnvsm.so:system/lib/libnvsm.so \
     vendor/acer/picasso/proprietary/libnvtestio.so:system/lib/libnvtestio.so \
     vendor/acer/picasso/proprietary/libnvtestresults.so:system/lib/libnvtestresults.so \
-    vendor/acer/picasso/proprietary/libnvwinsys.so:system/lib/libnvwinsys.so \
-    vendor/acer/picasso/proprietary/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/acer/picasso/proprietary/Acer-AK00LB.kl:system/usr/keychars/Acer-AK00LB.kl \
     vendor/acer/picasso/proprietary/Acer-AK00LB.kcm:system/usr/keylayout/Acer-AK00LB.kcm \
     vendor/acer/picasso/proprietary/acer-dock.kl:system/usr/keylayout/acer-dock.kl \
